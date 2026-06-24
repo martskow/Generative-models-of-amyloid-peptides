@@ -1,0 +1,10 @@
+Model,Comparison,p-value,Significant,Test_Used
+RandomForest,Real + ProtGPT2 (random undersampling) vs Real + cVAE (random undersampling),0.0052492086440094786,YES,Paired t-test
+RandomForest,Real + ProtGPT2 (random undersampling) vs Real + Diffusion (random undersampling),0.02103531927551242,YES,Paired t-test
+RandomForest,Real + cVAE (random undersampling) vs Real + Diffusion (random undersampling),0.0287882253536843,YES,Paired t-test
+XGBoost,Real + ProtGPT2 (random undersampling) vs Real + cVAE (random undersampling),0.7614909241600712,no,Paired t-test
+XGBoost,Real + ProtGPT2 (random undersampling) vs Real + Diffusion (random undersampling),0.17051681776154215,no,Paired t-test
+XGBoost,Real + cVAE (random undersampling) vs Real + Diffusion (random undersampling),0.07926822242792564,no,Paired t-test
+LogisticRegression,Real + ProtGPT2 (random undersampling) vs Real + cVAE (random undersampling),0.001953125,YES,Wilcoxon
+LogisticRegression,Real + ProtGPT2 (random undersampling) vs Real + Diffusion (random undersampling),0.001953125,YES,Wilcoxon
+LogisticRegression,Real + cVAE (random undersampling) vs Real + Diffusion (random undersampling),0.004656567711477476,YES,Paired t-test

@@ -1,0 +1,64 @@
+Model,Comparison,p-value,Significant,Test_Used
+RandomForest,Real Only vs Real + ProtGPT2,0.00011428742345941472,YES,Paired t-test
+RandomForest,Real Only vs Real + cVAE,3.3374056443656706e-06,YES,Paired t-test
+RandomForest,Real Only vs Real + Diffusion,1.4342395463265992e-06,YES,Paired t-test
+RandomForest,Real Only vs Real + ProtGPT2 pLDDT > 70,0.0001698107514339848,YES,Paired t-test
+RandomForest,Real Only vs Real + cVAE pLDDT > 70,0.0032961478556138386,YES,Paired t-test
+RandomForest,Real Only vs Real + Diffusion pLDDT > 70,0.004916053766793755,YES,Paired t-test
+RandomForest,Real + ProtGPT2 vs Real + cVAE,0.0030227603260353742,YES,Paired t-test
+RandomForest,Real + ProtGPT2 vs Real + Diffusion,1.2690464491811646e-05,YES,Paired t-test
+RandomForest,Real + ProtGPT2 vs Real + ProtGPT2 pLDDT > 70,0.0008523082040189401,YES,Paired t-test
+RandomForest,Real + ProtGPT2 vs Real + cVAE pLDDT > 70,0.04683169863692374,YES,Paired t-test
+RandomForest,Real + ProtGPT2 vs Real + Diffusion pLDDT > 70,0.0011075491824185375,YES,Paired t-test
+RandomForest,Real + cVAE vs Real + Diffusion,0.2801464812899565,no,Paired t-test
+RandomForest,Real + cVAE vs Real + ProtGPT2 pLDDT > 70,3.8773163230480927e-05,YES,Paired t-test
+RandomForest,Real + cVAE vs Real + cVAE pLDDT > 70,0.0002381790636462818,YES,Paired t-test
+RandomForest,Real + cVAE vs Real + Diffusion pLDDT > 70,1.2689719731446923e-05,YES,Paired t-test
+RandomForest,Real + Diffusion vs Real + ProtGPT2 pLDDT > 70,2.8847910453929868e-06,YES,Paired t-test
+RandomForest,Real + Diffusion vs Real + cVAE pLDDT > 70,3.2678884246125794e-07,YES,Paired t-test
+RandomForest,Real + Diffusion vs Real + Diffusion pLDDT > 70,6.882173017272315e-06,YES,Paired t-test
+RandomForest,Real + ProtGPT2 pLDDT > 70 vs Real + cVAE pLDDT > 70,0.3483009164221367,no,Paired t-test
+RandomForest,Real + ProtGPT2 pLDDT > 70 vs Real + Diffusion pLDDT > 70,0.31934866557685393,no,Paired t-test
+RandomForest,Real + cVAE pLDDT > 70 vs Real + Diffusion pLDDT > 70,0.18141613439840146,no,Paired t-test
+XGBoost,Real Only vs Real + ProtGPT2,3.6311943247223817e-06,YES,Paired t-test
+XGBoost,Real Only vs Real + cVAE,2.8933429289142397e-05,YES,Paired t-test
+XGBoost,Real Only vs Real + Diffusion,4.398833000973331e-06,YES,Paired t-test
+XGBoost,Real Only vs Real + ProtGPT2 pLDDT > 70,0.0004898950566809555,YES,Paired t-test
+XGBoost,Real Only vs Real + cVAE pLDDT > 70,2.4423757650528544e-05,YES,Paired t-test
+XGBoost,Real Only vs Real + Diffusion pLDDT > 70,0.0002783524204686266,YES,Paired t-test
+XGBoost,Real + ProtGPT2 vs Real + cVAE,0.5051095836672057,no,Paired t-test
+XGBoost,Real + ProtGPT2 vs Real + Diffusion,0.026693563508214325,YES,Paired t-test
+XGBoost,Real + ProtGPT2 vs Real + ProtGPT2 pLDDT > 70,0.0007085365069584855,YES,Paired t-test
+XGBoost,Real + ProtGPT2 vs Real + cVAE pLDDT > 70,0.5196702184875941,no,Paired t-test
+XGBoost,Real + ProtGPT2 vs Real + Diffusion pLDDT > 70,0.03652008124266065,YES,Paired t-test
+XGBoost,Real + cVAE vs Real + Diffusion,0.05858537497635798,no,Paired t-test
+XGBoost,Real + cVAE vs Real + ProtGPT2 pLDDT > 70,0.0003485262871198447,YES,Paired t-test
+XGBoost,Real + cVAE vs Real + cVAE pLDDT > 70,0.26116524096207555,no,Paired t-test
+XGBoost,Real + cVAE vs Real + Diffusion pLDDT > 70,0.014461308081785857,YES,Paired t-test
+XGBoost,Real + Diffusion vs Real + ProtGPT2 pLDDT > 70,0.00022851485485592504,YES,Paired t-test
+XGBoost,Real + Diffusion vs Real + cVAE pLDDT > 70,0.005733905004770293,YES,Paired t-test
+XGBoost,Real + Diffusion vs Real + Diffusion pLDDT > 70,0.005314594634334734,YES,Paired t-test
+XGBoost,Real + ProtGPT2 pLDDT > 70 vs Real + cVAE pLDDT > 70,0.007821740996653953,YES,Paired t-test
+XGBoost,Real + ProtGPT2 pLDDT > 70 vs Real + Diffusion pLDDT > 70,0.16318491946678737,no,Paired t-test
+XGBoost,Real + cVAE pLDDT > 70 vs Real + Diffusion pLDDT > 70,0.28249592592568984,no,Paired t-test
+LogisticRegression,Real Only vs Real + ProtGPT2,9.605719626661263e-07,YES,Paired t-test
+LogisticRegression,Real Only vs Real + cVAE,0.00011805736284194391,YES,Paired t-test
+LogisticRegression,Real Only vs Real + Diffusion,1.533956675299366e-05,YES,Paired t-test
+LogisticRegression,Real Only vs Real + ProtGPT2 pLDDT > 70,0.0004709810846179072,YES,Paired t-test
+LogisticRegression,Real Only vs Real + cVAE pLDDT > 70,0.0009376856627710249,YES,Paired t-test
+LogisticRegression,Real Only vs Real + Diffusion pLDDT > 70,0.005823233551241464,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 vs Real + cVAE,1.95699874335881e-05,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 vs Real + Diffusion,0.001176949152168269,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 vs Real + ProtGPT2 pLDDT > 70,2.7975613729698714e-05,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 vs Real + cVAE pLDDT > 70,1.209389423394735e-06,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 vs Real + Diffusion pLDDT > 70,2.4403086999537055e-08,YES,Paired t-test
+LogisticRegression,Real + cVAE vs Real + Diffusion,0.6119957699455262,no,Paired t-test
+LogisticRegression,Real + cVAE vs Real + ProtGPT2 pLDDT > 70,0.9355102317200824,no,Paired t-test
+LogisticRegression,Real + cVAE vs Real + cVAE pLDDT > 70,8.16462205107807e-06,YES,Paired t-test
+LogisticRegression,Real + cVAE vs Real + Diffusion pLDDT > 70,1.694815401238338e-08,YES,Paired t-test
+LogisticRegression,Real + Diffusion vs Real + ProtGPT2 pLDDT > 70,0.6861274069045359,no,Paired t-test
+LogisticRegression,Real + Diffusion vs Real + cVAE pLDDT > 70,1.0038458514700036e-06,YES,Paired t-test
+LogisticRegression,Real + Diffusion vs Real + Diffusion pLDDT > 70,7.612045975510078e-07,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 pLDDT > 70 vs Real + cVAE pLDDT > 70,0.00010326353937635776,YES,Paired t-test
+LogisticRegression,Real + ProtGPT2 pLDDT > 70 vs Real + Diffusion pLDDT > 70,1.3079852176723628e-05,YES,Paired t-test
+LogisticRegression,Real + cVAE pLDDT > 70 vs Real + Diffusion pLDDT > 70,0.5000834659621818,no,Paired t-test

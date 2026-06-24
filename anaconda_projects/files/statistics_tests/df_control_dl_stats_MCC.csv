@@ -1,0 +1,10 @@
+Model,Comparison,p-value,Significant,Test_Used
+MLP,Real + ProtGPT2 (random undersampling) vs Real + cVAE (random undersampling),0.001807319980856564,YES,Paired t-test
+MLP,Real + ProtGPT2 (random undersampling) vs Real + Diffusion (random undersampling),0.05802580391621288,no,Paired t-test
+MLP,Real + cVAE (random undersampling) vs Real + Diffusion (random undersampling),0.0015699970796997965,YES,Paired t-test
+CNN-Hybrid,Real + ProtGPT2 (random undersampling) vs Real + cVAE (random undersampling),0.5488043738677317,no,Paired t-test
+CNN-Hybrid,Real + ProtGPT2 (random undersampling) vs Real + Diffusion (random undersampling),0.001953125,YES,Wilcoxon
+CNN-Hybrid,Real + cVAE (random undersampling) vs Real + Diffusion (random undersampling),0.001953125,YES,Wilcoxon
+ProtBERT-MLP,Real + ProtGPT2 (random undersampling) vs Real + cVAE (random undersampling),0.10043537019978069,no,Paired t-test
+ProtBERT-MLP,Real + ProtGPT2 (random undersampling) vs Real + Diffusion (random undersampling),0.3063468402544606,no,Paired t-test
+ProtBERT-MLP,Real + cVAE (random undersampling) vs Real + Diffusion (random undersampling),0.059798107166079445,no,Paired t-test
